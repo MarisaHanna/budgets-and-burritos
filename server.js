@@ -23,7 +23,6 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/bugetmyburritos
   
 });
 
-// routes
 app.use(require("./routes/api.js"));
 
 app.listen(PORT, () => {
