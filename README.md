@@ -4,7 +4,7 @@
 #       Description 
 
 
-This application simulates a budget tracker for users to keep a record of expenses for both on and off line use. The user can add, or subtract funds to ther transaction history. While online, the data is then stored in a database powered by MongoDB. When the user is offline, the service-worker.js file caches data to an indexDB file. The data is then updated when the user returns to an online status.
+This application simulates a budget tracker for users to keep a record of expenses for both on and off line use. The user can add, or subtract funds to ther transaction history. While online, the data is then stored in a database powered by MongoDB. When the user is offline, the service-worker.js file caches data to an indexedDB file. The data is then updated when the user returns to an online status.
 
 
 #       Images
